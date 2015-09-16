@@ -1,0 +1,252 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>To-Do List</title>
+        <link rel="stylesheet" href="./stylesheets/main.css">
+        <link rel="author" href="humans.txt">
+		<script src="https://use.typekit.net/nxj3xet.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="project-container">
+        	<ul class="project-list">
+        	    <li class="project-list-item selected">PROJECT</li>
+        	    <li class="project-list-item">NETFLIX</li>
+        	    <li class="project-list-item">RAB</li>
+        	    <li class="project-list-item">ARUP</li>
+        	    <li class="project-list-item">AT&T</li>
+        	    <li class="project-list-item">HH</li>
+        	</ul>
+        </section>
+        <section class="team-container">
+        	<ul class="team-list">
+        	    <li class="team-list-item header">
+        	    	<span>TEAM</span>
+        	    	<ul class="offline-online-container">
+        	    		<li class="online">• 5 online</li>
+        	    		<li class="offline">• 3 offline</li>
+        	    	</ul>
+        	    </li>
+        	    <li class="team-list-item">
+        	    	<img class="team-img one" src="http://s29.postimg.org/eni2vn4pz/finch.png">
+        	    	<span class="team-task-number">5</span>
+                    <div class="teammate-container">
+            	    	<span class="team-name">Alan Finch</span>
+            	    	<span class="team-title">Associate Design Director</span>
+                    </div>
+        	    </li>
+        	    <li class="team-list-item">
+        	    	<img class="team-img two" src="http://s29.postimg.org/lpg0hu8br/devin.png">
+        	    	<span class="team-task-number">2</span>
+                    <div class="teammate-container">
+            	    	<span class="team-name">Devin Drumheller</span>
+            	    	<span class="team-title">Senior Project Manager</span>
+                    </div>
+        	    </li>
+        	    <li class="team-list-item">
+        	    	<img class="team-img three" src="http://s29.postimg.org/5v147yjl3/meg.png">
+        	    	<span class="team-task-number">4</span>
+                    <div class="teammate-container">
+            	    	<span class="team-name">Meg Adams</span>
+            	    	<span class="team-title">Developer</span>
+                    </div>
+        	    </li>
+        	    <li class="team-list-item">
+        	    	<img class="team-img four" src="http://s29.postimg.org/kynac25yf/emma.png">
+        	    	<span class="team-task-number">7</span>
+                    <div class="teammate-container">
+            	    	<span class="team-name">Emma Follender</span>
+            	    	<span class="team-title">Junior Developer</span>
+                    </div>
+        	    </li>
+        	    <li class="team-list-item">
+        	    	<img class="team-img five" src="http://s29.postimg.org/afnamw3af/karen.png">
+        	    	<span class="team-task-number">7</span>
+                    <div class="teammate-container">
+            	    	<span class="team-name">Karen Toledano</span>
+            	    	<span class="team-title">Senior Strategist</span>
+                    </div>
+        	    </li>
+        	    <li class="team-list-item">
+        	    	<img class="team-img six" src="http://s29.postimg.org/5bw0yos6f/brian.png">
+        	    	<span class="team-task-number">2</span>
+                    <div class="teammate-container">
+            	    	<span class="team-name">Brian Lemond</span>
+            	    	<span class="team-title">CEO</span>
+                    </div>
+        	    </li>
+        	    <li class="team-list-item">
+        	    	<div class="team-img seven">R</div>
+        	    	<span class="team-task-number">2,210</span>
+                    <div class="teammate-container">
+            	    	<span class="team-name">Ratio</span>
+            	    	<span class="team-title">Project Procrastinators</span>
+                    </div>
+        	    </li>
+        	</ul>
+        </section>
+        <section class="task-container">
+        	<ul class="task-schedule-nav">
+        	    <li class="task-schedule-item">ALL</li>
+        	    <li class="task-schedule-item">TODAY</li>
+        	    <li class="task-schedule-item">7 DAYS</li>
+        	    <li class="task-schedule-item">14 DAYS</li>
+        	</ul>
+        	<ul class="incomplete-tasks-list">
+        	    <li class="incomplete-task-item">
+        	    	<span class="incomplete-task-item-title">
+        	    		<input type="checkbox">
+        	    		<h6>GLOBAL</h6>
+        	    	</span>
+        	    	<span class="incomplete-task-item-description">
+        	    		Add image dimensions to all three email signup
+        	    	</span>
+        	    </li>
+        	    <li class="incomplete-task-item">
+        	    	<span class="incomplete-task-item-title">
+        	    		<input type="checkbox">
+        	    		<h6>RELEASES & BLOGS</h6>
+        	    	</span>
+        	    	<span class="incomplete-task-item-description">
+        	    		Asset tray "x"
+        	    	</span>
+        	    	<ul class="incomplete-subtask-list">
+        	    	    <li>
+        	    	    	<span class="incomplete-subtask-item-title">
+		        	    		<input type="checkbox">
+		        	    		<h6>ARCHIVES</h6>
+		        	    	</span>
+		        	    	<span class="incomplete-subtask-item-description">
+		        	    		Drop-down month menu overflows horizontal
+		        	    	</span>
+        	    	    </li>
+        	    	    <li>
+        	    	    	<span class="incomplete-subtask-item-title">
+		        	    		<input type="checkbox">
+		        	    		<h6>ARCHIVES</h6>
+		        	    	</span>
+		        	    	<span class="incomplete-subtask-item-description">
+		        	    		Drop-down month menu overflows horizontal
+		        	    	</span>
+        	    	    </li>
+        	    	</ul>
+        	    </li>
+        	    <li class="incomplete-task-item">
+        	    	<span class="incomplete-task-item-title">
+        	    		<input type="checkbox">
+        	    		<h6>SEARCH</h6>
+        	    	</span>
+        	    	<span class="incomplete-task-item-description">
+        	    		icon
+        	    	</span>
+        	    </li>
+        	    <li class="incomplete-task-item">
+        	    	<span class="incomplete-task-item-title">
+        	    		<input type="checkbox">
+        	    		<h6>SEARCH</h6>
+        	    	</span>
+        	    	<span class="incomplete-task-item-description">
+        	    		Font-Weight
+        	    	</span>
+        	    </li>
+        	</ul>
+        	<ul class="completed-tasks-list">
+        	    <li class="completed-task-title">
+        	    	COMPLETED TASKS
+        	    </li>
+        	    <li class="complete-task-item">
+        	    	<span class="complete-task-item-title">
+        	    		<input type="checkbox" checked>
+        	    		<h6>ARCHIVES</h6>
+        	    	</span>
+        	    	<span class="complete-task-item-description">
+        	    		Drop-down month menu overflows horizontal
+        	    	</span>
+        	    </li>
+        	    <li class="complete-task-item">
+        	    	<span class="complete-task-item-title">
+        	    		<input type="checkbox" checked>
+        	    		<h6>SEARCH</h6>
+        	    	</span>
+        	    	<span class="complete-task-item-description">
+        	    		Icon
+        	    	</span>
+        	    </li>
+        	</ul>
+        </section>
+        <section class="comment-container">
+        	<ul class="comment-section-list">
+        	    <li class="comment-header">
+        	    	<span>TASK</span>
+        	    	<span>COMMENTS</span>
+        	    </li>
+        	    <li class="comment-text-section">
+        	    	<i class="fa fa-circle"></i>
+        	    	<div class="comment-text">
+        	    		<span class="comment-text-title">Global:</span>
+        	    		<span class="comment-text-description">Add image dimensions to all three email signup Globals</span>
+        	    	</div>
+        	    </li>
+        	    <li class="comment-notes">
+        	    	<ul class="comment-notes-list">
+        	    	    <li class="comment-notes-item">
+        	    	    	<div class="comment-notes-img"></div>
+        	    	    	<div class="comment-notes-text">
+        	    	    		<span class="comment-notes-name">Devin Drumheller</span>
+        	    	    		<span class="comment-notes-info">created task: 12:23 am</span>
+        	    	    	</div>
+        	    	    </li>
+        	    	    <li class="comment-notes-item">
+        	    	    	<div class="comment-notes-img"></div>
+        	    	    	<div class="comment-notes-text">
+        	    	    		<span class="comment-notes-name">Devin Drumheller</span>
+        	    	    		<span class="comment-notes-info">added to Netflix Internal: 12:23 am</span>
+        	    	    	</div>
+        	    	    </li>
+        	    	    <li class="comment-notes-item">
+        	    	    	<div class="comment-notes-img"></div>
+        	    	    	<div class="comment-notes-text">
+        	    	    		<span class="comment-notes-name">Devin Drumheller</span>
+        	    	    		<span class="comment-notes-info">assigned to Meg Adams: 12:23 am</span>
+        	    	    	</div>
+        	    	    </li>
+        	    	    <li class="comment-notes-item">
+        	    	    	<div class="comment-notes-img"></div>
+        	    	    	<div class="comment-notes-text">
+        	    	    		<span class="comment-notes-name">Devin Drumheller</span>
+        	    	    		<span class="comment-notes-info">assigned to you: 5:30</span>
+        	    	    	</div>
+        	    	    </li>
+        	    	</ul>
+        	    </li>
+        	</ul>
+        </section>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
